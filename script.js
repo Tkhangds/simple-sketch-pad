@@ -18,7 +18,7 @@ function drawGrid() {
             const child = document.createElement("div");
             child.style["flex"] = "1 0 " + 100 / gridNumber + "%";
             child.style["height"] = "${500/gridNumber}px";
-
+            child.style["borderRadius"] = "5px";
             child.addEventListener("mouseover", () => {
 
                 finalCode = '#';

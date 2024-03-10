@@ -4,6 +4,7 @@ h1{
 
 body{
     margin: 0;
+    background-color: lightgreen;
 }
 
 .container{
@@ -12,15 +13,29 @@ body{
     margin: 0%;
     padding: 0%;
     border-style: solid;
-    border-width: thick;
+    border-width: 10px;
+    border-radius: 10px;
     height: 500px;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    background: wheat;
 }
 
 .top{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    align-items: center;
+}
+
+.head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.renewBtn{
+    border-radius: 10px;
+    font-weight: bolder;
+    height: 50px;
+    background-color: bisque;
 }
